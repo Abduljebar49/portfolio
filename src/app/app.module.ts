@@ -8,6 +8,10 @@ import { ResumeComponent } from './resume/resume.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from './shared/shared.module';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { LayoutComponent } from './layout/layout.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { SharedModule } from './shared/shared.module';
     AboutComponent,
     ResumeComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectDetailComponent,
+    NotFoundComponent,
+    LayoutComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
