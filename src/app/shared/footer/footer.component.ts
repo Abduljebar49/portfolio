@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <div class="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
       <div class="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
         <p class="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">Follow me</p>
-        <ul class="flex gap-4 sm:gap-8"><a href="https://www.stoman.me/" target="__blank"
+        <ul class="flex gap-4 sm:gap-8"><a href="https://www.abduljebarsani.me/" target="__blank"
             class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"><i
               class="text-xl sm:text-2xl md:text-3xl"><svg stroke="currentColor" fill="none" stroke-width="2"
                 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
                 <line x1="2" y1="12" x2="22" y2="12"></line>
                 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
                 </path>
-              </svg></i></a><a href="https://github.com/realstoman" target="__blank"
+              </svg></i></a><a href="https://github.com/abduljebar49" target="__blank"
             class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"><i
               class="text-xl sm:text-2xl md:text-3xl"><svg stroke="currentColor" fill="none" stroke-width="2"
                 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
@@ -24,7 +24,7 @@ import { Component } from '@angular/core';
                 <path
                   d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                 </path>
-              </svg></i></a><a href="https://twitter.com/realstoman" target="__blank"
+              </svg></i></a><a href="https://twitter.com/abduljebar03" target="__blank"
             class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"><i
               class="text-xl sm:text-2xl md:text-3xl"><svg stroke="currentColor" fill="none" stroke-width="2"
                 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
@@ -32,7 +32,7 @@ import { Component } from '@angular/core';
                 <path
                   d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
                 </path>
-              </svg></i></a><a href="https://www.linkedin.com/in/realstoman" target="__blank"
+              </svg></i></a><a href="https://www.linkedin.com/in/abduljebar-sani" target="__blank"
             class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"><i
               class="text-xl sm:text-2xl md:text-3xl"><svg stroke="currentColor" fill="none" stroke-width="2"
                 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
