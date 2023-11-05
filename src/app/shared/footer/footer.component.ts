@@ -53,11 +53,10 @@ import { Component } from '@angular/core';
               </svg></i></a></ul>
       </div>
       <div class="font-general-regular flex justify-center items-center text-center">
-        <div class="text-lg text-ternary-dark dark:text-ternary-light">© <!-- -->2023<a
-            href="https://github.com/realstoman/nextjs-tailwindcss-portfolio" target="__blank"
-            class="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500">Next.js
-            &amp; Tailwind CSS Portfolio</a>.<!-- --> <a href="https://stoman.me" target="__blank"
-            class="text-secondary-dark dark:text-secondary-light font-medium uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500">Stoman</a>
+        <div class="text-lg text-ternary-dark dark:text-ternary-light">© 2023<a
+           target="__blank"
+            class="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"></a><!-- --> <a target="__blank"
+            class="text-secondary-dark dark:text-secondary-light font-medium uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500">Abduljebar Sani</a>
         </div>
       </div>
     </div>

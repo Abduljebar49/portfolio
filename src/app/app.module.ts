@@ -12,6 +12,7 @@ import { ProjectDetailComponent } from './project-detail/project-detail.componen
 import { NotFoundComponent } from './not-found/not-found.component';
 import { LayoutComponent } from './layout/layout.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { MainLayoutComponent } from './main-layout/main-layout.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProjectsComponent } from './projects/projects.component';
     ProjectDetailComponent,
     NotFoundComponent,
     LayoutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    MainLayoutComponent
   ],
   imports: [
     BrowserModule,
