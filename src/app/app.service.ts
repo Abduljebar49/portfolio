@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { of } from 'rxjs';
+import { Observable, of } from 'rxjs';
 import { categories, projects } from 'src/db';
 import { Category } from 'src/models/category';
 import { Project } from 'src/models/project';
@@ -14,6 +14,10 @@ export class AppService {
 
   getProjects(){
     return of(this.projects);
+  }
+
+  getProjectDetail(id:number):Observable<Project>{
+    return of(projects[0])
   }
 
   getCategories(){

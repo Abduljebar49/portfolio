@@ -1,76 +1,72 @@
+import { flutterPro1Challenge } from "./constants";
 import { Category } from "./models/category";
 import { Project } from "./models/project";
 
 
 export let projects: Project[] = [
-
     {
         id: 1,
+        doneAt: new Date(),
         images: [
-            'assets/images/web-project-2.jpg'
+            'assets/projects/mobile-app-1/app-1-page-1.jpg',
+            'assets/projects/mobile-app-1/app-1-page-2.jpg',
+            'assets/projects/mobile-app-1/app-1-page-3.jpg',
+            'assets/projects/mobile-app-1/app-1-page-4.jpg',
+            'assets/projects/mobile-app-1/app-1-page-5.jpg',
+            'assets/projects/mobile-app-1/app-1-page-6.jpg',
+            'assets/projects/mobile-app-1/app-1-page-7.jpg',
+            'assets/projects/mobile-app-1/app-1-page-8.jpg',
+            'assets/projects/mobile-app-1/app-1-page-9.jpg',
         ],
-        title: 'Google Health Platform',
-        type: 'Web Application',
+        title: 'Gig Agenagn App',
+        type: 'Mobile Application',
+        client: {
+            name: 'Dabbal Sofwares PLC',
+            service: 'Web and Mobile Application',
+            website: 'http://debbal.com/',
+            phone: '+251910507045'
+        },
         stack: [
-            ''
-        ]
+            'Flutter & Dart',
+            'Firebase Authentication',
+            'Firestore',
+            'Realtime database'
+        ],
+        challenges: flutterPro1Challenge,
+        objective: `
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.
+        `
     },
     {
         id: 2,
+        doneAt: new Date(),
         images: [
-            'assets/images/mobile-project-2.jpg'
+            'assets/projects/mobile-app-1/app-1-page-1.jpg',
+            'assets/projects/mobile-app-1/app-1-page-2.jpg',
+            'assets/projects/mobile-app-1/app-1-page-3.jpg',
+            'assets/projects/mobile-app-1/app-1-page-4.jpg',
+            'assets/projects/mobile-app-1/app-1-page-5.jpg',
+            'assets/projects/mobile-app-1/app-1-page-6.jpg',
+            'assets/projects/mobile-app-1/app-1-page-7.jpg',
+            'assets/projects/mobile-app-1/app-1-page-8.jpg',
+            'assets/projects/mobile-app-1/app-1-page-9.jpg',
         ],
-        title: 'Phoenix Digital Agency',
+        title: 'Gig Agenagn App',
         type: 'Mobile Application',
+        client: {
+            name: 'Dabbal Sofwares PLC',
+            service: 'Web and Mobile Application',
+            website: 'http://debbal.com/',
+            phone: '+251910507045'
+        },
         stack: [
-            ''
-        ]
-    },
-    {
-        id: 3,
-        images: [
-            'assets/images/ui-project-1.jpg'
+            'Flutter & Dart',
+            'Firebase Authentication',
+            'Firestore',
+            'Realtime database'
         ],
-        title: 'Cloud Storage Platform',
-        type: 'UI/UX Design',
-        stack: [
-            ''
-        ]
+        challenges: flutterPro1Challenge,
     },
-    {
-        id: 4,
-        images: [
-            'assets/images/web-project-1.jpg'
-        ],
-        title: 'Apple New Design System',
-        type: 'Web Application',
-        stack: [
-            ''
-        ]
-    },
-    {
-        id: 5,
-        images: [
-            'assets/images/mobile-project-1.jpg'
-        ],
-        title: 'WeTalk Social Application',
-        type: 'Mobile Application',
-        stack: [
-            ''
-        ]
-    },
-    {
-        id: 6,
-        images: [
-            'assets/images/mobile-project-1.jpg'
-        ],
-        title: 'Project Management UI',
-        type: 'UI/UX design',
-        stack: [
-            ''
-        ]
-    },
-
 ]
 
 export let categories: Category[] = [
@@ -99,3 +95,5 @@ export let githubUsername = "";
 export let linkedInUsername = "";
 export let twitterInUsername = "";
 export let youtubeUsername = "";
+
+
