@@ -17,7 +17,7 @@ export class AppService {
   }
 
   getProjectDetail(id:number):Observable<Project>{
-    return of(projects[0])
+    return of(projects.filter((data)=>data.id == id)[0])
   }
 
   getCategories(){
