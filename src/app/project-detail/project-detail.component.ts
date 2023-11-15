@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AppService } from '../app.service';
 import { Project } from 'src/models/project';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-project-detail',
@@ -10,10 +11,14 @@ import { Project } from 'src/models/project';
 export class ProjectDetailComponent implements OnInit {
   project: Project | undefined
   challengeHtml: string | undefined
-  constructor(private service: AppService) { }
+  id:number | undefined
+  constructor(private service: AppService,activatedRoute:ActivatedRoute) {
+    console.log("id : ",activatedRoute.snapshot.params['id'])
+    this.id = activatedRoute.snapshot.params['id']
+   }
 
   ngOnInit(): void {
-    this.service.getProjectDetail(2).subscribe((res) => {
+    this.service.getProjectDetail(this.id!).subscribe((res) => {
       this.project = res
       this.challengeHtml = this.project.challenges
 

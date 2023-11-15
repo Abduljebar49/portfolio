@@ -7,6 +7,7 @@ export let projects: Project[] = [
     {
         id: 1,
         doneAt: new Date(),
+        profile:'assets/projects/mobile-app-1/mobile-1-home.png',
         images: [
             'assets/projects/mobile-app-1/app-1-page-1.jpg',
             'assets/projects/mobile-app-1/app-1-page-2.jpg',
@@ -39,6 +40,7 @@ export let projects: Project[] = [
     },
     {
         id: 2,
+        profile:'assets/projects/mobile-app-2/mobile-2-home.png',
         doneAt: new Date(),
         images: [
             'assets/projects/mobile-app-2/app-2-page-1.jpg',
@@ -71,6 +73,7 @@ export let projects: Project[] = [
     },
     {
         id: 3,
+        profile:'assets/projects/mobile-app-3/mobile-3-home.png',
         doneAt: new Date(),
         images: [
             'assets/projects/mobile-app-3/app-3-page-1.jpg',
@@ -79,9 +82,6 @@ export let projects: Project[] = [
             'assets/projects/mobile-app-3/app-3-page-4.jpg',
             'assets/projects/mobile-app-3/app-3-page-5.jpg',
             'assets/projects/mobile-app-3/app-3-page-6.jpg',
-            'assets/projects/mobile-app-3/app-3-page-7.jpg',
-            'assets/projects/mobile-app-3/app-3-page-8.jpg',
-            'assets/projects/mobile-app-3/app-3-page-9.jpg',
         ],
         title: 'Gig Agenagn App',
         type: 'Mobile Application',
@@ -101,6 +101,7 @@ export let projects: Project[] = [
     },
     {
         id: 4,
+        profile:'assets/projects/mobile-app-4/mobile-4-home.png',
         doneAt: new Date(),
         images: [
             'assets/projects/mobile-app-4/app-4-page-1.jpg',
