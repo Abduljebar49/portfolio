@@ -126,6 +126,8 @@ export let projects: Project[] = [
     },
 ]
 
+export let angularProjects: Project[] = []
+
 export let categories: Category[] = [
     {
         id: 1,

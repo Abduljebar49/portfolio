@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { categories, projects } from 'src/db';
+import { angularProjects, categories, projects } from 'src/db';
 import { Category } from 'src/models/category';
 import { Project } from 'src/models/project';
 
@@ -26,4 +26,5 @@ export class AppService {
 
   projects: Project[] =  projects;
   categories:Category[] = categories;
+  angularProjects:Project[] = angularProjects;
 }
