@@ -1,4 +1,4 @@
-import { flutterPro1Challenge } from "./constants";
+import { flutterPro1Challenge, flutterPro2Challenge } from "./constants";
 import { Category } from "./models/category";
 import { Project } from "./models/project";
 
@@ -66,7 +66,7 @@ export let projects: Project[] = [
             'Node',
             'Express',
         ],
-        challenges: flutterPro1Challenge,
+        challenges: flutterPro2Challenge,
         objective: `
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.
         `
