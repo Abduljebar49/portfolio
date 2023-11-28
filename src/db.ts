@@ -83,11 +83,11 @@ export let projects: Project[] = [
             'assets/projects/mobile-app-3/app-3-page-5.jpg',
             'assets/projects/mobile-app-3/app-3-page-6.jpg',
         ],
-        title: 'Gig Agenagn App',
+        title: 'GC- Gumaata Caayaa',
         type: 'Mobile Application',
         client: {
             name: 'Private Person - Caayaa',
-            service: 'Religous Musician',
+            service: 'Religous Nasheed',
         },
         stack: [
             'Flutter & Dart',
