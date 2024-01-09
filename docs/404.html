@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <script>
+    // Redirect all 404 errors to index.html
+    var path = window.location.href.split('/').slice(3).join('/');
+    window.location.replace('/portfolio/' + (path || ''));
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
