@@ -150,6 +150,7 @@ export let categories: Category[] = [
 export let mainTitle = "";
 export let mainTitlePosition = "";
 
+
 export let githubUsername = "https://github.com/abduljebar49";
 export let linkedInUsername = "https://www.linkedin.com/in/abduljebar-sani";
 export let twitterInUsername = "";
