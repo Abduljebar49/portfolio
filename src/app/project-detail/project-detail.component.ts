@@ -30,19 +30,22 @@ export class ProjectDetailComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.service.getProjectDetail(this.id!).subscribe((res) => {
-      this.project = res;
-      this.challengeHtml = this.project.challenges;
-    });
+    this.fetchProject(this.id!);
     this.service.getRelatedProjects().subscribe((res)=>{
       this.relatedProjects = res;
     });
+  }
 
+  fetchProject(id:number){
+    this.service.getProjectDetail(id).subscribe((res) => {
+      this.project = res;
+      this.challengeHtml = this.project.challenges;
+    });
   }
 
   async open(id:number){
     this.scrollToTop()
+    this.fetchProject(id)
     this.router.navigate([`/projects/${id}`]);
-    // await window.location.reload();
   }
 }
