@@ -10,5 +10,6 @@ export interface Project {
     objective?: string,
     doneAt?: Date,
     challenges: string,
-    profile: string
+    profile: string,
+    link?:string
 }

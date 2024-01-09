@@ -28,7 +28,6 @@ export class ProjectsComponent implements OnInit{
   getProjects(){
     this.service.getProjects().subscribe((projects)=>{
       this.projects = projects;
-      console.log("projects ;",projects)
     })
   }
 
