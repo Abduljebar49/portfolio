@@ -2,7 +2,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { AppService, RelatedProject } from '../app.service';
 import { Project } from 'src/models/project';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ScrollDispatcher } from '@angular/cdk/scrolling';
+// import { ScrollDispatcher } from '@angular/cdk/scrolling';
 @Component({
   selector: 'app-project-detail',
   templateUrl: './project-detail.component.html',
@@ -15,16 +15,16 @@ export class ProjectDetailComponent implements OnInit {
   relatedProjects: RelatedProject[] = [];
 
   scrollToTop() {
-    const body = document.getElementById('scrollContainer')!;
-    this.scrollDispatcher.scrolled().subscribe(() => {
-      body.scrollTop = 0;
-    });
+    // const body = document.getElementById('scrollContainer')!;
+    // this.scrollDispatcher.scrolled().subscribe(() => {
+    //   body.scrollTop = 0;
+    // });
   }
   constructor(
     private service: AppService, 
     activatedRoute: ActivatedRoute,
     private router:Router,
-    private scrollDispatcher: ScrollDispatcher
+    // private scrollDispatcher: ScrollDispatcher
     ) {
     this.id = activatedRoute.snapshot.params['id'];
   }
