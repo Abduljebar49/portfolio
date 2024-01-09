@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Page Not Found</title>
-    <script>
-      // Redirect all 404 errors to index.html
-    //   var path = window.location.href.split("/").slice(3).join("/");
-      fetch(window.location.href)
-        .then((response) => {
-          if (response.ok) {
-            window.location.replace("/portfolio/");
-          } else {
-            // Show the 404 Not Found page
-            document.title = "Page Not Found";
-          }
-        })
-        .catch((error) => {
-          console.error("Error fetching the page:", error);
-        });
-    //   window.location.replace("/portfolio/" + (path || ""));
-    </script>
-  </head>
-  <body>
-    <p>Redirecting...</p>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <script>
+    // Redirect all 404 errors to index.html
+    var path = window.location.href.split('/').map((ele=>ele!='portfolio')).slice(3).join('/');
+    // path = path.split('/').map((ele=>ele!='portfolio')).join
+    window.location.replace('/portfolio/' + (path || ''));
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
 </html>
