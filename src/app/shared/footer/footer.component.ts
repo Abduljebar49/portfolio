@@ -41,7 +41,7 @@ import { Component } from '@angular/core';
                 </path>
                 <rect x="2" y="9" width="4" height="12"></rect>
                 <circle cx="4" cy="4" r="2"></circle>
-              </svg></i></a><a href="https://www.youtube.com/c/realstoman" target="__blank"
+              </svg></i></a><a href="https://www.youtube.com/" target="__blank"
             class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"><i
               class="text-xl sm:text-2xl md:text-3xl"><svg stroke="currentColor" fill="none" stroke-width="2"
                 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
